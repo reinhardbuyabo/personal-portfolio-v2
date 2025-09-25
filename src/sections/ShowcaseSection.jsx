@@ -49,13 +49,14 @@ const AppShowcase = () => {
                 <div className="showcaselayout">
                     <div ref={rydeRef} className="first-project-wrapper">
                         <div className="image-wrapper">
-                            <img src="" alt="LSTM-GARCH" />
+                            <img src="/images/roi.png" alt="LSTM-GARCH" />
                         </div>
                         <div className="text-content">
                             <h2>Portfolio Optimization Sytem built with Next.js</h2>
                             <p className="text-white-50 md:text-xl">
                                 A Time Series Modeling and Analysis built with Next.js and
-                                Machine Learning models, such as LSTM, on the Nairobi Securities Exchange
+                                Machine Learning models, such as LSTM, on the Nairobi Securities
+                                Exchange
                             </p>
                         </div>
                     </div>
@@ -64,7 +65,7 @@ const AppShowcase = () => {
                         <div className="project" ref={libraryRef}>
                             <div className="image-wrapper bg-[#FFEFDB]">
                                 <img
-                                    src=""
+                                    src="/images/crowdfunding.png"
                                     alt="Crowdfunding Platform"
                                 />
                             </div>
@@ -73,7 +74,7 @@ const AppShowcase = () => {
 
                         <div className="project" ref={ycDirectoryRef}>
                             <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src="" alt="Fraud Detection" />
+                                <img src="/images/fraud-detection.jpg" alt="Fraud Detection" />
                             </div>
                             <h2>A Machine Learning Based Fraud Detection Tool</h2>
                         </div>
