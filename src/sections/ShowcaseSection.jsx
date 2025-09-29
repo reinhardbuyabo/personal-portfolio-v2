@@ -54,7 +54,11 @@ const AppShowcase = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <img src="/images/risk.jpg" alt="LSTM-GARCH" />
+                                <img
+                                    src="/images/risk.jpg"
+                                    alt="LSTM-GARCH"
+                                    style={{ objectFit: "contain" }}
+                                />
                             </a>
                         </div>
                         <div className="text-content">
