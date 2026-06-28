@@ -36,6 +36,12 @@ const logoIconsList = [
     {
         imgPath: "/images/logos/company-logo-3.jpg",
     },
+    {
+        imgPath: "/images/flyrank-wordmark-onDark.svg",
+    },
+    {
+        imgPath: "/images/avane-white-logo.webp",
+    },
 ];
 
 const abilities = [
@@ -123,6 +129,31 @@ const techStackIcons = [
 ];
 
 const expCards = [
+    {
+        review:
+            "Reinhard is demonstrating strong AI engineering capabilities at FlyRank, designing robust backend workflows and delivering production-ready AI pipelines with clear, thorough documentation.",
+        imgPath: "/images/flyrank-wordmark-onDark.svg",
+        logoPath: "/images/flyrank-wordmark-onDark.svg",
+        title: "Backend AI Engineer",
+        date: "June 2026 - Present",
+        responsibilities: [
+            "Designing AI backend workflows with inputs, outputs, constraints, and failure cases.",
+            "Building retrieval-backed answer flows, structured-output pipelines, and agent loops.",
+            "Writing verification notes on quality, limitations, and recommended improvements.",
+        ],
+    },
+    {
+        review:
+            "Reinhard made valuable contributions at Avané Clinic, developing and maintaining web applications that enhanced user experience and measurably improved conversion rates.",
+        imgPath: "/images/avane-white-logo.webp",
+        logoPath: "/images/avane-white-logo.webp",
+        title: "Digital Systems Specialist",
+        date: "January 2026 - April 2026",
+        responsibilities: [
+            "Designed, developed, tested and maintained web applications, enhancing user experience and contributing to improved conversion rates",
+            "Managed domain registration, configuration, and maintenance, ensuring reliable website availability and performance",
+        ],
+    },
     {
         review:
             "Reinhard demonstrated resilience and adaptability while working at Calwide. He consistently delivered high-quality code and collaborated effectively with the team.",
